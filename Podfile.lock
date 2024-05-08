@@ -1,0 +1,28 @@
+PODS:
+  - AMapFoundation (1.6.6)
+  - AMapLocation (2.6.8):
+    - AMapFoundation (~> 1.6.4)
+  - GMObjC (3.0.0):
+    - GMOpenSSL
+  - GMOpenSSL (2.2.4)
+
+DEPENDENCIES:
+  - AMapLocation
+  - GMObjC (= 3.0.0)
+
+SPEC REPOS:
+  trunk:
+    - AMapFoundation
+    - AMapLocation
+    - GMObjC
+    - GMOpenSSL
+
+SPEC CHECKSUMS:
+  AMapFoundation: 2d012d9aaa7a5c0d387ddb1a8c5f03e1d6df29b8
+  AMapLocation: dad27669c4ca68e395ce7532ff614b7d4d45f7b7
+  GMObjC: 4ad23614c0279f864ae11703fd64ba51b9bc0739
+  GMOpenSSL: 59dbb37f879517648e9c63dd1d9322758844ae60
+
+PODFILE CHECKSUM: 30565d0f1b3d5074c13c64157ddc4d960c414ad5
+
+COCOAPODS: 1.11.2
